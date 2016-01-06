@@ -25,6 +25,8 @@ public class SudokuBoard {
 
 	}
 	
+	
+	
  // method isValid takes in three int's only returns true if the value is a legal move
 	public boolean isValid(int r, int c, int v) {
 		if(array[r][c].isLocked()){
@@ -63,6 +65,12 @@ public class SudokuBoard {
 		}
 		return true;
 	}
+	
+	
+	
+	
+	
+	
 // enterMove method takes in three int's
 	// should call isValid method and if it's false board shouldn't be changed
 	public void enterMove(int r, int c, int v) throws SudokuException {

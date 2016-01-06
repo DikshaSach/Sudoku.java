@@ -41,7 +41,7 @@ public boolean isLocked (){
 	return locked;
 }
 public void setValue(int v){
-	//ensure that the value is valid meaning 0-4
+	// ensure  that the variable is set to a valid value only between 0 through 4
 	if ((v>=0)&&(v<=4) && (!locked)) { 
 	value = v;
 }
